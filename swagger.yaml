@@ -31,39 +31,41 @@ paths:
           description: Validation exception
 definitions:
   News:
-    type: "object"
-    properties:
-      AutorId:
-        type: "integer"
-        format: "int64"
-        example: 258
-      Content:
-        type: "string"
-        example: "Quem disse que não existem"
-      CategoriaSlug:
-        type: "string"
-        example: "dinheiro-e-economia"
-      IdImage:
-        type: "integer"
-        format: "int64"
-        example: 798488
-      Titulo:
-        type: "string"
-        example: "Carro automático: 5 opções por menos de R$ 100 mil"
-      Categoria:
-        type: "string"
-        example: "Seu bolso"
-      Autor:
-        type: "string"
-        example: "Evandro Enoshita"
-      Url:
-        type: "string"
-        example: "https://www.webmotors.com.br/wm1/dinheiro-e-economia/carro-automatico-5-opcoes-por-menos-de-r-100-mil"
-      UrlPrincipalImage:
-        type: "string"
-        example: "https://www.webmotors.com.br/wp-content/uploads/2024/04/26185056/ALTA-9353-730x545.webp"
-      AutorAvatar:
-        type: "string"
-        example: "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png"
+    type: "array"
+    items:
+      type: "object"
+      properties:
+        AutorId:
+          type: "integer"
+          format: "int64"
+          example: 258
+        Content:
+          type: "string"
+          example: "Quem disse que não existem"
+        CategoriaSlug:
+          type: "string"
+          example: "dinheiro-e-economia"
+        IdImage:
+          type: "integer"
+          format: "int64"
+          example: 798488
+        Titulo:
+          type: "string"
+          example: "Carro automático: 5 opções por menos de R$ 100 mil"
+        Categoria:
+          type: "string"
+          example: "Seu bolso"
+        Autor:
+          type: "string"
+          example: "Evandro Enoshita"
+        Url:
+          type: "string"
+          example: "https://www.webmotors.com.br/wm1/dinheiro-e-economia/carro-automatico-5-opcoes-por-menos-de-r-100-mil"
+        UrlPrincipalImage:
+          type: "string"
+          example: "https://www.webmotors.com.br/wp-content/uploads/2024/04/26185056/ALTA-9353-730x545.webp"
+        AutorAvatar:
+          type: "string"
+          example: "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png"
     xml:
       name: "News"
