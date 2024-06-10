@@ -41,7 +41,7 @@ definitions:
           example: 253
         Content:
           type: "string"
-          example: 'A <strong><a href=\"https://www.webmotors.com.br/fiat\" target=\"_blank\" rel=\"noopener\">Fiat</a><...atch?v=8-QTqwcxNDU&amp;pp=ygUZNTAwIGVsw6l0cmljbyArIFdlYm1vdG9ycw%3D%3D</youtubeembed>\r\n\r\n&nbsp;'
+          example: 'Em anúncio feito nesta semana, o CEO da Stellantis, Carlos Tavarez, confirmou que a montadora italiana pretende trazer o subcompacto tradicional em versão híbrida leve.'
         CategoriaSlug:
           type: "string"
           example: "noticias"
@@ -63,9 +63,9 @@ definitions:
           example: "https://www.webmotors.com.br/wm1/noticias/fiat-500-tera-versao-hibrida-mas-vai-demorar"
         UrlPrincipalImage:
           type: "string"
-          example: "https://www.webmotors.com.br/wp-content/uploads/2024/04/26185056/ALTA-9353-730x545.webp"
+          example: "https://www.webmotors.com.br/wp-content/uploads/2024/06/07175328/500-hibrido-F2-730x545.webp"
         AutorAvatar:
           type: "string"
-          example: "https://www.webmotors.com.br/wp-content/uploads/2024/06/07175328/500-hibrido-F2-730x545.webp"
+          example: "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png"
     xml:
       name: "News"
