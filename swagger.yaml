@@ -38,34 +38,34 @@ definitions:
         AutorId:
           type: "integer"
           format: "int64"
-          example: 258
+          example: 253
         Content:
           type: "string"
-          example: "Quem disse que não existem"
+          example: 'A <strong><a href=\"https://www.webmotors.com.br/fiat\" target=\"_blank\" rel=\"noopener\">Fiat</a><...atch?v=8-QTqwcxNDU&amp;pp=ygUZNTAwIGVsw6l0cmljbyArIFdlYm1vdG9ycw%3D%3D</youtubeembed>\r\n\r\n&nbsp;'
         CategoriaSlug:
           type: "string"
-          example: "dinheiro-e-economia"
+          example: "noticias"
         IdImage:
           type: "integer"
           format: "int64"
-          example: 798488
+          example: 801028
         Titulo:
           type: "string"
-          example: "Carro automático: 5 opções por menos de R$ 100 mil"
+          example: "Fiat 500 terá versão híbrida, mas vai demorar"
         Categoria:
           type: "string"
-          example: "Seu bolso"
+          example: "Últimas notícias"
         Autor:
           type: "string"
-          example: "Evandro Enoshita"
+          example: "Lucas Cardoso"
         Url:
           type: "string"
-          example: "https://www.webmotors.com.br/wm1/dinheiro-e-economia/carro-automatico-5-opcoes-por-menos-de-r-100-mil"
+          example: "https://www.webmotors.com.br/wm1/noticias/fiat-500-tera-versao-hibrida-mas-vai-demorar"
         UrlPrincipalImage:
           type: "string"
           example: "https://www.webmotors.com.br/wp-content/uploads/2024/04/26185056/ALTA-9353-730x545.webp"
         AutorAvatar:
           type: "string"
-          example: "https://www.webmotors.com.br/wm1/assets/508d6137c5695b5ed13ab89101f9d24d.png"
+          example: "https://www.webmotors.com.br/wp-content/uploads/2024/06/07175328/500-hibrido-F2-730x545.webp"
     xml:
       name: "News"
