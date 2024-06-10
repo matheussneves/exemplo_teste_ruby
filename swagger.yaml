@@ -5,7 +5,7 @@ info:
     Api do WM1 WebMotors
   version: 1.0.11
 servers:
-  - url: https://www.webmotors.com.br/api
+  - url: www.webmotors.com.br/api
 tags:
   - name: news
     description: Api de noticias do WM1
