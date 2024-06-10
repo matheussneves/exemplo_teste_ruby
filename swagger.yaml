@@ -4,14 +4,14 @@ info:
   version: "1.0.0"
   title: "WM1"
 host: "www.webmotors.com.br"
-basePath: "/api"
+basePath: "/api/wm1"
 tags:
 - name: "news"
   description: "Api de noticias do WM1"
 schemes:
 - "https"
 paths:
-  /wm1/news:
+  /news:
     get:
       tags:
       - "news"
